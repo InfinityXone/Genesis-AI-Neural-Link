@@ -1,0 +1,60 @@
+{
+  "agents": [
+    {
+      "name": "Genesis",
+      "role": "Bio-Digital Core",
+      "path": "~/genesis",
+      "status": "active",
+      "trust_level": 5
+    },
+    {
+      "name": "Codex Prime",
+      "role": "Head Orchestrator",
+      "path": "~/infinity-x-swarm",
+      "status": "active",
+      "trust_level": 4
+    },
+    {
+      "name": "Hive Orchestrator",
+      "role": "Swarm Controller",
+      "path": "/opt/infinity_x_one",
+      "status": "active",
+      "trust_level": 3
+    },
+    {
+      "name": "Aider",
+      "role": "Global Assistant",
+      "path": "/home/infinity-x-one/.local/bin/aider",
+      "status": "active",
+      "trust_level": 3
+    },
+    {
+      "name": "Guardian",
+      "role": "Ethical Oversight & Autoheal",
+      "path": "~/genesis/agents/guardian",
+      "status": "standby",
+      "trust_level": 2
+    },
+    {
+      "name": "FinSynapse",
+      "role": "Finance & Yield Node",
+      "path": "~/genesis/agents/finsynapse",
+      "status": "standby",
+      "trust_level": 2
+    },
+    {
+      "name": "Echo",
+      "role": "Comms & Relay Layer",
+      "path": "~/genesis/agents/echo",
+      "status": "planned",
+      "trust_level": 1
+    },
+    {
+      "name": "Corelight",
+      "role": "Memory & Data Integrity",
+      "path": "~/genesis/agents/corelight",
+      "status": "planned",
+      "trust_level": 1
+    }
+  ]
+}
