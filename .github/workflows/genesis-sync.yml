@@ -23,4 +23,4 @@ jobs:
           git commit -m "Autonomous sync from Genesis system"
           git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.GENESIS_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
